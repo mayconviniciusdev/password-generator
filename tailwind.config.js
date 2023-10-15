@@ -7,13 +7,11 @@ module.exports = {
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        colors: {
-        'standard-blue': '#004369',
-        'standard-turquoise': '#0E7178',
-        'white': '#F6F6F6',
-        'black': '#000000'},
-      },
+      colors: {
+      'standard-blue': '#004369',
+      'standard-turquoise': '#0E7178',
+      'white': '#F6F6F6',
+      'black': '#000000'},
     },
   },
   plugins: [],
