@@ -1,9 +1,11 @@
 import Header from "@/components/header";
+import Banner from "@/components/banner";
 
 export default function Home() {
   return (
     <main>
-      <div className="px-6"><Header/></div>
+      <Header/>
+      <Banner/>
     </main>
   )
 }
